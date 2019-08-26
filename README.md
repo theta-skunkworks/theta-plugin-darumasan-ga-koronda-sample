@@ -18,7 +18,6 @@ Enable the permission of "Camera" and "Storage".<br>
 ## Development Environment
 ### Camera
 * RICOH THETA V Firmware ver.3.00.1
-* RICOH THETA Z1 Firmware ver.1.03.5
 
 ### SDK/Library
 * [RICOH THETA Plug-in SDK (ver.2.0.0)](https://github.com/ricohapi/theta-plugin-sdk)
@@ -27,16 +26,6 @@ Enable the permission of "Camera" and "Storage".<br>
 ### Development Software
 * Android Studio ver.3.3+
 * gradle ver.5.1.1
-
-## For RICOH THETA Z1
-In case of using RICOH THETA Z1, you need to modify some code.<br>
-At the line 16-17 in `Constants.java`, you should modify the defines of still picture size to `6720x3360`.
-
-```java:Constants.java
-// still picture size
-public static final int STILL_SIZE_WIDTH = 6720;
-public static final int STILL_SIZE_HEIGHT = 3360;
-```
 
 ## How to Use Plug-in
 ### How to start
